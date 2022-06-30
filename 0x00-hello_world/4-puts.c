@@ -1,11 +1,16 @@
 #include <stdio.h>
+#include<string.h>
 /* 
  *main - entry point
  *
   *Return: aways 0 (success)
  */
-int main(void)
+int main()
+
 {
-	puts("Programming is like building a multilingual puzzle");
-	return (0);
-i}
+	char string1[]="Programming is like building a multilingual puzzle";
+
+	puts(string1);
+
+	return 0;
+}
