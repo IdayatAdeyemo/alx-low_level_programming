@@ -5,7 +5,7 @@
  *
   *Return: aways 0 (success)
  */
-int main(vois)
+int main(void)
 
 {
 	char string1[]="\"Programming is like building a multilingual puzzle";
