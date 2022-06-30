@@ -10,8 +10,8 @@ int main(void)
 
 {
 
-chr strg1[] =("\"Programming is like building a multilingual puzzle");
-       puts(strg1)
+	puts("\"Programming is like building a multilingual puzzle");
+     
 
 	return (0);
 }
