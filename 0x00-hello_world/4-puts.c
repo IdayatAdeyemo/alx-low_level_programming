@@ -3,8 +3,8 @@
 /**
  *main - entry point
  *
-  *Return: aways 0 (success)
-  
+ *Return: aways 0 (success)
+ * 
  */
 int main(void)
 {
