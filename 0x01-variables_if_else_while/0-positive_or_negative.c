@@ -19,7 +19,7 @@
 	{
 		printf("%d is positive\n", n);
 	}
-	else 
+	else
 	{
 		if (n == 0)
 		{
