@@ -11,22 +11,18 @@
 
 int main(void)
 {
-	char sp = ' ';
-	char low;
+	char low = 'a';
 
-
-	while (low = 'a'; 'a' <= 'z'; low++)
-	{
-		if ((low = 'e') || (low = 'q'))
+	while ('a' <= 'z'; low++)
+		if ((low == 'e') || (low == 'q'))
 		{
-			putchar(sp);
+			putchar(continue);
 		}
 		else
 		{
 			putchar(low);
 		}
 		putchar('\n');
-	}
-	return (0);
+		return (0);
 }
 
