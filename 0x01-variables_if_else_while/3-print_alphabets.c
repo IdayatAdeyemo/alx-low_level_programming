@@ -8,18 +8,16 @@
 */
 	int main(void)
 {
-	char low='a';
-	char high='A';
+	char low = 'a';
+	char high = 'A';
 
-	for (low<= 'z')
+	for (low <= 'z'; low++)
 	{
 		putchar(low);
-		low++;
 	}
-	for (high<= 'Z')
+	for (high <= 'Z'; high++)
 	{
 		putchar(high);
-		high++;
 	}
 	putchar('\n');
 
