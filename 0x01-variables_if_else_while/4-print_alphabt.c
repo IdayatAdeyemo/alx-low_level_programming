@@ -16,7 +16,7 @@ int main(void)
 	while (low <= 'z'; low++)
 		if ((low == 'e') || (low == 'q'))
 		{
-			continue;
+			'continue';
 		}
 		else
 		{
