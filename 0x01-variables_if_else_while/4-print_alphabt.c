@@ -11,13 +11,12 @@
 
 int main(void)
 {
-	char low;
 	char sp = ' ';
 
 
-	for (low = 'a'; a <= 'z'; low++)
+	for (char low = 'a'; a <= 'z'; low++)
 	{
-		if ((low = 'e)' || (low = 'q'))
+		if ((low = 'e') || (low = 'q'))
 		{
 			putchar(sp);
 		}
