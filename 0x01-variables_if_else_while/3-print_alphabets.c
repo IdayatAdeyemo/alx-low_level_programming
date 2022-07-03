@@ -6,21 +6,22 @@
 * return: always 0 (success)
 *
 */
-int main(void)
+	int main(void)
 {
 	char low = 'a';
 	char high = 'A';
 
 	for (low <= 'z')
 	{
-		putchar("%c", low);
+		putchar(low);
 		low++;
 	}
 	for (high <= 'Z')
 	{
-		putchar("%c", high)
-			high++
+		putchar(high)
+		high++;
 	}
-	putchar("\n");
+	putchar('\n');
+
 	return (0);
 }
