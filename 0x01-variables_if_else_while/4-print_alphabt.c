@@ -12,9 +12,10 @@
 int main(void)
 {
 	char sp = ' ';
+	char low;
 
 
-	while (char low = 'a'; 'a' <= 'z'; low++)
+	while (low = 'a'; 'a' <= 'z'; low++)
 	{
 		if ((low = 'e') || (low = 'q'))
 		{
