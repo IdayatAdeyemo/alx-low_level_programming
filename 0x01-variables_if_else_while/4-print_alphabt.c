@@ -13,10 +13,10 @@ int main(void)
 {
 	char low = 'a';
 
-	while ('a' <= 'z'; low++)
+	while('a' <= 'z'; low++)
 		if ((low == 'e') || (low == 'q'))
 		{
-			continue
+			continue;
 		}
 		else
 		{
