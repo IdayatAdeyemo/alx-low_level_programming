@@ -15,12 +15,12 @@ int main(void)
 
 	while (low <= 'z')
 	{
-		if ((low == 'e') || (low != 'q'))
+		if ((low != 'e') || (low != 'q'))
 		{
-			putchar('continue');
+			putchar(low);
+			low++;
 		}
-		putchar(low);
-		low++;
+		putchar();
 
 		}
 		putchar('\n');
