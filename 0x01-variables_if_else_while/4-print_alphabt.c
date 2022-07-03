@@ -11,16 +11,19 @@
 
 int main(void)
 {
-	char low = 'a';
+	char low;
 
-	while (low <= 'z'; low++)
+	low = 'a';
+
+	while (low <= 'z')
 		if ((low == 'e') || (low == 'q'))
 		{
-			'continue';
+			continue;
 		}
 		else
 		{
 			putchar(low);
+			++low;
 		}
 		putchar('\n');
 		return (0);
