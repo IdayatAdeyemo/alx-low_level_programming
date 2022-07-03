@@ -11,12 +11,12 @@
 	char low = 'a';
 	char high = 'A';
 
-	for (low <= 'z')
+	for (low<= 'z';)
 	{
 		putchar(low);
 		low++;
 	}
-	for (high <= 'Z')
+	for (high<= 'Z';)
 	{
 		putchar(high)
 		high++;
