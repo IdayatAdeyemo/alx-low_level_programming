@@ -15,6 +15,7 @@ int main(void)
 
 	low = 'a';
 	while(low <= 'z');
+	{
 		if ((low == 'e') || (low == 'q'))
 		{
 			continue;
@@ -23,7 +24,7 @@ int main(void)
 		{
 			putchar(low);
 			++low;
-		}
+		}}
 		putchar('\n');
 		return (0);
 }
