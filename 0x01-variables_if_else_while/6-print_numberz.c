@@ -7,15 +7,13 @@
 *
 * Return: value 0 (success)
 */
+int main(void)
+{
+	int a;
 
-
-	int main(void)
+	for (a = 0; a <= 9; a++)
 		{
-			int a;
-
-				for (a = 0; a <= 9; a++)
-				{
-				putchar(a);
-				}
-					putchar('\n');
+		putchar(a);
+		}
+		putchar('\n');
 		return (0);
