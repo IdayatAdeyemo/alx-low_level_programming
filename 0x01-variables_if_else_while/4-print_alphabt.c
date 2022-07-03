@@ -12,12 +12,13 @@
 int main(void)
 {
 	char low = 'a';
+	char sp = ' ';
 
 	while (low <= 'z')
 	{
-		if ((low == 'e') && (low == 'q'))
+		if ((low == 'e') || (low != 'q'))
 		{
-			continue;
+			putchar(sp);
 		}
 		putchar(low);
 		low++;
