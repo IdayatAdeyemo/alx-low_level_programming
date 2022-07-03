@@ -20,8 +20,6 @@ int main(void)
 			putchar(low);
 			low++;
 		}
-		continue;
-
 		}
 		putchar('\n');
 		return (0);
