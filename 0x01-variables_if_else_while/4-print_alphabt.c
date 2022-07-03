@@ -14,7 +14,7 @@ int main(void)
 	char sp = ' ';
 
 
-	for (char low = 'a'; a <= 'z'; low++)
+	while (char low = 'a'; 'a' <= 'z'; low++)
 	{
 		if ((low = 'e') || (low = 'q'))
 		{
