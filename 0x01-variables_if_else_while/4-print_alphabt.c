@@ -19,8 +19,8 @@ int main(void)
 		{
 			continue;
 		}
-		low++;
 		putchar(low);
+		low++;
 
 		}
 		putchar('\n');
