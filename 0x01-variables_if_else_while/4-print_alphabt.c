@@ -11,14 +11,17 @@
 
 int main(void)
 {
-	char low;
+	char low, e, q;
 
 	low = 'a';
+	e = 'e';
+	q = 'q';
+	
 	while (low <= 'z')
 	{
-		if (low != 'e')
+		if (low != e)
 		{
-			if (low != 'q')
+			if (low != q)
 			{
 				putchar(low);
 				low++;
