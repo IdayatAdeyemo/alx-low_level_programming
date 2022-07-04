@@ -13,21 +13,17 @@ int main(void)
 {
 	char low, e, q;
 
-	low = 'a';
 	e = 'e';
 	q = 'q';
 	
-	while (low <= 'z')
+	for (low = 'a'; low <= 'z'; low++)
 	{
-		if (low != e)
+		if (low == e || low == q)
 		{
-			if (low != q)
-			{
-				putchar(low);
-				low++;
-			}
+			putchar('/n');
 		}
+		putchar(low);
+		low++
 	}
-	putchar('\n');
 	return (0);
 }
