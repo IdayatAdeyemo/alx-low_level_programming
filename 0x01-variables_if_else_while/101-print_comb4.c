@@ -27,7 +27,7 @@ int main(void)
 					if (i == '7' && j == '8')
 						continue;
 
-					putchar(';');
+					putchar(',');
 					putchar(' ');
 				}
 			}
