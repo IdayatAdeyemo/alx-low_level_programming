@@ -18,12 +18,11 @@ int main(void)
 	
 	for (low = 'a'; low <= 'z'; low++)
 	{
-		if (low == e || low == q)
+		if (low == e && low == q)
 		{
-			putchar('/n');
+			putchar(low);
 		}
-		putchar(low);
-		low++
+		putchar('\n');
 	}
 	return (0);
 }
