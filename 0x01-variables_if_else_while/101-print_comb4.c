@@ -19,12 +19,12 @@ int main(void)
 		{
 			for (k = k + 1; k <= '9'; k++)
 			{
-				if ((p != d) != q)
+				if ((j != i) != k)
 				{
 					putchar(i);
 					putchar(j);
 					putchar(k);
-					if (i == '7' && p == '8')
+					if (i == '7' && j == '8')
 						continue;
 
 					putchar(';');
