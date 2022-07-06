@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * void print - Entry point
  *
  *void print_alphabet_x10(void)
  *
