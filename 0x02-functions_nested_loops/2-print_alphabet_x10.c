@@ -12,16 +12,17 @@
 
 void print_alphabet_x10(void)
 {
-	int a, b;
+	int mi, bi;
 
-	a = 0;
+	mi = 0;
 
-	while (a <= 10)
+	while (a < 10)
 	{
-		for (b = 'a'; b <= 'z'; b++)
+		for (bi = 'a'; bi <= 'z'; bi++)
 		{
 			_putchar(b);
 		}
-	}
+		mi++
 	_putchar('\n');
+	}
 }
