@@ -17,5 +17,5 @@ int main(void)
 	}
 
 	print_alphabet();
-	return (void);
+	return (0);
 }
