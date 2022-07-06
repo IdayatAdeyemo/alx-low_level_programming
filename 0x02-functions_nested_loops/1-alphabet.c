@@ -2,11 +2,11 @@
 /**
  * main - Entry point
  *
- * Return: value 0 (success)
+ * print_alphabet - print alphabet in lower case
  *
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	char low;
 
