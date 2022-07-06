@@ -16,13 +16,13 @@ void print_alphabet_x10(void)
 
 	mi = 0;
 
-	while (a < 10)
+	while (mi < 10)
 	{
 		for (bi = 'a'; bi <= 'z'; bi++)
 		{
-			_putchar(b);
+			_putchar(bi);
 		}
-		mi++
+		mi++;
 	_putchar('\n');
 	}
 }
