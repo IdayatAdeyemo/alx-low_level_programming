@@ -10,11 +10,10 @@ void print_alphabet(void)
 {
 	char low;
 
-	for ( low = 97; low <= 122; low++)
+	for (low = 97; low <= 122; low++)
 	{
 		_putchar(low);
 	}
 
 	_putchar('\n');
-	
 }
