@@ -6,16 +6,15 @@
  *
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	char low;
 
 	for ( low = 97; low <= 122; low++)
 	{
 		_putchar(low);
-		_putchar('\n');
 	}
 
-	print_alphabet();
+	_putchar('\n');
 	
 }
