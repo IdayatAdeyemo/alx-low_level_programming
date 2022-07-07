@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * _islower - a function that checks for lowercase character
- * @c: an input character
+ * _islower - check Holberton
  *
+ * @c: an input character
+ * description: function print alphabet in lowercase
  * 
  * return: 1 if is lowercase or 0 if is uppercase
  */
