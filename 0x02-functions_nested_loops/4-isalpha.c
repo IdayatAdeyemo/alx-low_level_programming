@@ -3,7 +3,8 @@
 /**
 * _isalpha - check Holberton
 * @c: an input character
-* decription: function return 1 if the character is a letter,lowercase or upperca
+* decription:function return 1 if the character is a letter,lowercase or upper
+*
 *Return: 1 or 0 in otherwise.
 *
 */
