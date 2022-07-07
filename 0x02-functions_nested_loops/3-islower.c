@@ -2,9 +2,11 @@
 
 /**
  * _islower - is a fuction that check for lowercase character
+ * @c: an input character
  *
- * decription:return 1 if c is lowercase
- * return 0 if c is uppercase
+ * decription: print o
+ * alphabet in lowercase
+ * return: 1 if is lowercase or 0 if is uppercase
  */
 
 int _islower(int c)
