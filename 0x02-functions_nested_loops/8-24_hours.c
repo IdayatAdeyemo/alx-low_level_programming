@@ -6,7 +6,7 @@
  * return: 24 hour clock line by line
  */
 
-void jack_baurer(void)
+void jack_bauer(void)
 {
 	int H, Z;
 	
