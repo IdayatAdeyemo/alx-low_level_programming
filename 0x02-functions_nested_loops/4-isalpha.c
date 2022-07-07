@@ -14,9 +14,9 @@ int _isalpha(int c)
 
 	for (lower = 'a'; lower <= 'z'; lower++)
 	{
-		for (upper = 'A'; uppercase <= 'Z'; upper++)
+		for (upper = 'A'; upper <= 'Z'; upper++)
 		{
-		       	if ( c == lower) || (c == upper)
+		       	if (c == lower || c == upper)
 			{
 				islet = 1;
 			}
