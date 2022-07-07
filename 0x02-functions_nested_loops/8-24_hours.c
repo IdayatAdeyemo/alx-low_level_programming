@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * jack_bauer - check main
+ * jack_bauer - print every minutes
  * description: fuction  prints every minutes in one day
- * return: nothing
+ * return: 24 hour clock line by line
  */
 
 void jack_baurer(void)
