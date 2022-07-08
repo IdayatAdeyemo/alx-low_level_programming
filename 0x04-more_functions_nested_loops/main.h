@@ -16,4 +16,3 @@ void print_number(int n);
 
 
 #endif /* MAIN_H */
-Footer
