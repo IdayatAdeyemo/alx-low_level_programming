@@ -16,18 +16,20 @@ int main(void)
 	for (i = 1; i <= 100; i++)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
-			printf("FizzBuzz");
+			_putchar('FizzBuzz');
 
 		else if (i % 3 == 0)
-			_putchar(Fizz);
+			_putchar('Fizz');
 
 		else if ((i % 5 == 0)
-			printf("Buzz");
+			_putchar('Buzz');
 
 		else
-			printf("%i", i);
-	}
+			_putchar(i);
 
-	printf("\n");
+			if (i < 100)
+			_putchar(' ');
+	}
+	_putchar('\n');
 	return (0);
 }
