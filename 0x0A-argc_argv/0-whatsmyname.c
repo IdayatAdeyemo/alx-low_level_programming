@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * main - Entry point
+ * @argc: void
+ * @argv:print it filename
  *
- * return: always 0
+ * Return: always 0 (success)
  */
 int main(int argc, char *argv[])
 {
