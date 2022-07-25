@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 	{
 		mul = mul * atoi(argv[i]);
 	}
-	printf("mul = %d\n", mul);
+	printf("%d\n", mul);
 	}
 	else
 	{
