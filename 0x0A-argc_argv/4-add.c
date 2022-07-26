@@ -38,17 +38,6 @@ int main(int argc, char *argv[])
 
 	else
 		printf(" ");
-	
-	/**else
-	{
-		for (j = 1; j < argc; j++)
-		{
-			if (!isdigit(atoi(argv[j])))
-			{
-				printf("Error\n");
-				return (1);
-			}
-		}
-	}*/
+
 	return (0);
 }
