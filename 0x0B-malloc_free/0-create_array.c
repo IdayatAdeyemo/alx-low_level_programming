@@ -9,7 +9,7 @@
 char *create_array(unsigned int size, char c)
 {
 char *buffer;
-unsigned int position;
+unsigned int i;
 
 if (size == 0)
 {
@@ -24,16 +24,11 @@ if (buffer == 0)
 return (NULL);
 }
 
-else
+for (i = 0; i < size; i++) /*for loop for array*/
 {
-position = 0;
-while (position < size) /*While for array*/
-{
-*(buffer + position) = c;
-position++;
+	buffer[i] = c;
 }
 
 return (buffer);
-}
 
 }
