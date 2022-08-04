@@ -2,10 +2,10 @@
 
 /**
  * print_name - prints a name.
- * @name:name of the person.
+ * @name:name to print
  * @f: a function pointer that hold address of the called function
  *
- * return: Nothing
+ * Return: Nothing
  */
 void print_name(char *name, void (*f)(char *))
 {
