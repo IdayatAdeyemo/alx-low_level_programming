@@ -1,4 +1,5 @@
-#include <stdlib>
+#include <stdlib.h>
+#include <stdio.h>
 
 void printStatement(void) __attribute__ ((constructor));
 
